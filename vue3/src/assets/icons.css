@@ -1,0 +1,89 @@
+.icon {
+  mask-image: url("../assets/imgs/ICON.svg");
+  mask-repeat: no-repeat;
+  background-color: gray;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-user {
+  mask-position: -26px -114px;
+}
+.icon-news {
+  mask-position: -98px -114px;
+}
+.icon-inventory {
+  mask-position: -2px -114px;
+}
+.icon-calender {
+  mask-position: -146px -114px;
+}
+.icon-marketing {
+  mask-position: -74px -634px;
+}
+.icon-task {
+  mask-position: -342px -658px;
+}
+.icon-ai {
+  mask-position: -261px -657px;
+}
+.icon-chat {
+  mask-position: -75px -847px;
+}
+.icon-other {
+  mask-position: -362px -615px;
+}
+.icon-report {
+  mask-position: -362px -615px;
+}
+.icon-report {
+  mask-position: -74px -114px;
+}
+.icon-back {
+  mask-position: -200px -141px;
+  background-color: white;
+}
+.icon-search {
+  mask-position: -2px -658px;
+}
+.icon-earch {
+  mask-position: 0 -608px;
+}
+.icon-notification-box {
+  mask-position: -212px -942px;
+}
+.icon-support {
+  mask-position: -74px -610px;
+}
+.icon-more {
+  mask-position: -50px -610px;
+}
+.icon-helper {
+  mask-position: -244px -894px;
+}
+.icon-add {
+  mask-position: -95px -46px;
+  background-color: white;
+
+}
+.icon-setting {
+  mask-position: -27px -610px;
+}
+.icon-export {
+  mask-position: -62px -658px;
+}
+.icon-filter {
+  mask-position: -45px -47px;
+}
+.icon-interactive {
+  mask-position: -4px -849px;
+}
+.icon-pre {
+  mask-position: -110px -46px;
+}
+.icon-next {
+  mask-position: -161px -45px;
+}
+.icon-close {
+  mask-position: -77px -141px;
+}
