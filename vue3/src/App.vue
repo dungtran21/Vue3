@@ -1,7 +1,8 @@
 <script setup>
+import { RouterView } from 'vue-router'
+
 import theHeader from './layouts/TheHeader.vue'
 import theSidebar from './layouts/TheSidebar.vue'
-import theMainContent from './layouts/TheMainContent.vue'
 </script>
 
 <template>
@@ -9,9 +10,9 @@ import theMainContent from './layouts/TheMainContent.vue'
     <the-header> </the-header>
     <div class="main-content flex-1">
       <the-sidebar> </the-sidebar>
-      <the-main-content>
-
-      </the-main-content>
+      
+      <RouterView />
+      
     </div>
   </div>
 </template>

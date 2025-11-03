@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import theMainContent from '../layouts/TheMainContent.vue'
+import AddCandidatePopUp from '@/views/canidate/AddCandidatePopUp.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,6 +10,16 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+    },
+    {
+      path: '/main',
+      name: 'theMainContent',
+      component: theMainContent,
+    },
+    {
+      path: '/popup',
+      name: 'AddCandidatePopUp',
+      component: AddCandidatePopUp,
     },
     {
       path: '/about',
