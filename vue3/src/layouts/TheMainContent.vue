@@ -1,14 +1,15 @@
-<script setup></script>
+<script setup>
+import DtButton from '@/components/dt-button/DtButton.vue'
+</script>
 
 <template>
   <div class="main-content d-flex flex-direction-column flex-1">
     <!-- title content -->
     <div class="content-title d-flex flex-justity-between flex-align-baseline">
       <div class="title">Ứng Viên</div>
-      <div class="btn-add d-flex flex-align-center gap-2">
-        <div class="icon icon-add"></div>
-        <div id="addBtn" class="">Thêm ứng viên</div>
-      </div>
+      <dt-button type="primary" positionIcon="left" icon="icon icon-add" @click="onAdd">
+        Thêm ứng viên
+      </dt-button>
     </div>
     <!--table -->
     <div class="wrap-table d-flex flex-direction-column flex-1 p-24">
@@ -201,7 +202,7 @@
               <div class="section-title">Học vấn</div>
 
               <div class="kv-subgrid">
-                <!-- Trình độ đào tạo --> 
+                <!-- Trình độ đào tạo -->
                 <div class="field">
                   <label class="label" for="degree">Trình độ đào tạo</label>
                   <div class="control">
