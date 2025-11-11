@@ -1,18 +1,15 @@
 <script setup>
-import { RouterView } from 'vue-router'
-
 import theHeader from './layouts/TheHeader.vue'
 import theSidebar from './layouts/TheSidebar.vue'
+import theMainContent from './layouts/TheMainContent.vue'
 </script>
 
 <template>
   <div class="content-container">
-    <the-header> </the-header>
+    <the-header />
     <div class="main-content flex-1">
-      <the-sidebar> </the-sidebar>
-      
-      <RouterView />
-      
+      <the-sidebar />
+      <the-main-content/>
     </div>
   </div>
 </template>
@@ -23,7 +20,7 @@ import theSidebar from './layouts/TheSidebar.vue'
   display: flex;
   flex-direction: column;
 }
-.main-content{
+.main-content {
   display: flex;
 }
 </style>

@@ -3,6 +3,8 @@
 html,
 body {
   height: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 #app {
   display: flex;
@@ -21,7 +23,7 @@ body {
 .flex-direction-column {
   flex-direction: column;
 }
-.text-white{
+.text-white {
   color: white;
 }
 
@@ -67,52 +69,51 @@ body {
 .flex-grow-1 {
   flex-grow: 1;
 }
-.relative{
-   position: relative;
+.relative {
+  position: relative;
 }
-.ml-16{
+.ml-16 {
   margin-left: 16px;
 }
-.mr-16{
+.mr-16 {
   margin-right: 16px;
 }
-.pl-16{
+.pl-16 {
   padding-left: 16px;
 }
-.pl-8{
+.pl-8 {
   padding-left: 8px;
 }
-.pt-8{
+.pt-8 {
   padding-top: 8px;
 }
-.pt-16{
+.pt-16 {
   padding-top: 16px;
 }
-.pt-24{
+.pt-24 {
   padding-top: 24px;
 }
-.p-8{
+.p-8 {
   padding: 8px;
 }
-.p-16{
+.p-16 {
   padding: 16px;
 }
-.p-24{
+.p-24 {
   padding: 24px;
 }
-.pl-24{
+.pl-24 {
   padding: 24px;
 }
-.pr-24{
+.pr-24 {
   padding: 24px;
 }
-.mt-3{
+.mt-3 {
   margin-top: 3px;
 }
-.mr-10{
+.mr-10 {
   margin-right: 10px;
 }
-.mr-24{
+.mr-24 {
   margin-right: 24px;
 }
-
